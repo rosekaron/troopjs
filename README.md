@@ -13,11 +13,10 @@ _/    ___/   /____ /  \_ /  \_    ____/
 
 ## What TroopJS is
 
-TroopJS is by it's core a lightweight, component-based, least obtrusive JavaScript framework with complete AMD compliance.
-Unlike many of the other JavaScript libraries, it doesn't impose you on either a predefined set of features, or
-a particular way of layering your application, but really aiming at provide a transparent yet solid foundation for the
-convenience of composing your web app, that scales from a simple TODO list to an fairy complex page in reality that
-possibly utilize a number of other libraries.
+TroopJS is a lightweight, component-based, non-obstrusive JavaScript framework that comes with complete AMD compliance. Unlike other JavaScript libraries, it doesn't impose on a predefined set of features nor
+a particular way of layering applications. 
+
+Instead, it aims to provide a transparent but solid foundation for conveniently composing web apps that can scale from a simple TODO list to a fairy complex page that can possibly utilize a number of other libraries.
 
 ## What TroopJS isn't
 - isn't a UI Framework or DOM library;
@@ -27,11 +26,10 @@ possibly utilize a number of other libraries.
 
 
 ## Core Concepts
-Here are some concepts and principles that we following when building TroopJS:
+Below is a list of key concepts and principles that we follow when we build apps in TroopJS:
 
 ### Component
-Considering component as the building block of TroopJS, also the smallest autonomy unit, a component is defined by any
-number of constructors and mixins, to distinguish with any regular object, the component is to have a life-cycle
+A component is considered a basic building block of TroopJS and is also the smallest autonomic unit. A component is defined by any number of constructors and mixins, to distinguish with any regular object, the component is to have a life-cycle
 that will trigger certain signals on different phases.
 
 ### First-class Mixin
